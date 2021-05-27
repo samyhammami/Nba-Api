@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    background-image: url(https://www.actugaming.net/wp-content/uploads/2020/07/nba-2K21-889x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.selector {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Sigmar One', cursive;
+    color:whitesmoke;
+    
+
+}
