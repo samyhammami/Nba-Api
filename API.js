@@ -26,10 +26,10 @@
     .then((data) => {
         console.log(data)
       const franchise = `<div class="main-container">
-      <h3>${data.name}</h3>
-      <h3>${data.full_name}</h3>
-      <h3>${data.conference}</h3>
-      <h3>${data.division}</h3>
+      <h3>Team : ${data.name}</h3>
+      <h3>Full name : ${data.full_name}</h3>
+      <h3>Conference : ${data.conference}</h3>
+      <h3>Division : ${data.division}</h3>
 
   </div>`
       mainContainer.insertAdjacentHTML('beforeend', franchise)

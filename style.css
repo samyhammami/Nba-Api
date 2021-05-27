@@ -5,6 +5,12 @@ body {
     background-size: cover;
 
 }
+h1{
+    color: whitesmoke;
+    font-family: 'Sigmar One', cursive;
+    display: flex;
+    justify-content: center;
+}
 .selector {
     display: flex;
     justify-content: center;
